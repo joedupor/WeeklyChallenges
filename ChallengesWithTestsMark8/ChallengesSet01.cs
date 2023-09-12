@@ -16,7 +16,7 @@ namespace ChallengesWithTestsMark8
             }
         }
 
-        public double subtract(double minuend, double subtrahend)
+        public double Subtract(double minuend, double subtrahend)
         {
             return minuend - subtrahend;
         }
