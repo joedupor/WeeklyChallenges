@@ -69,10 +69,10 @@ namespace ChallengesWithTestsMark8
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)         //7.
             {
-                var amountOfElements = objs.Length;
-                var majorityOfEs = (amountOfElements / 2) + 1;
+                int amountOfElements = objs.Length;
+                int majorityOfEs = (amountOfElements / 2) + 1;
 
-                var count = 0;
+                int count = 0;
 
                 foreach (string item in objs)
                 {
@@ -86,11 +86,12 @@ namespace ChallengesWithTestsMark8
                 {
                     return true;
                 }
+
                 else
                 {
                     return false;
                 }
-            }
+        }
 
 
 

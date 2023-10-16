@@ -30,13 +30,13 @@ namespace ChallengesWithTestsMark8
 
             for (int i = 1; i < numbers.Length; i++)
             {
-                if (numbers[i] > numbers[i - 1])
+                if (numbers[i] < numbers[i - 1])
                 {
-                    return true;
+                    return false;
                 }
             }
 
-            return false;
+            return true;
         }
 
         public int SumElementsThatFollowAnEven(int[] numbers)                                           // 4.
